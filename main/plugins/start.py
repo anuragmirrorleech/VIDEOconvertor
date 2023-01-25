@@ -44,6 +44,12 @@ async def info(event):
 @Drone.on(events.callbackquery.CallbackQuery(data="notice"))
 async def notice(event):
     await event.answer(f'{spam_notice}', alert=True)
+
+@Drone.on(events.callbackquery.CallbackQuery(data="DEV"))
+async def DEV(event):
+    await event.edit(DEV,
+                    buttons=[[
+                         Button.url("CONTACT ME", url="https://t.me/AM_ROBOTS")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="source"))
 async def source(event):
