@@ -29,7 +29,7 @@ help_text = """**v2.4**
 
 source_text = "**Deploy your own bot**"
 
-DEVELOPER✅ = "https://t.me/AM_ROBOTS"
+DEV = "https://t.me/AM_ROBOTS"
 
 spam_notice = "This bot is hosted on AM-ROBOTS-SERVER, and hence can just run one process at a time.Spamming the bot or encoding adult videos will lead you to a ban."
 
